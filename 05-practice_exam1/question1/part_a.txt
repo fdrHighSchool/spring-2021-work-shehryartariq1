@@ -1,12 +1,8 @@
 private string recombine(string word1, string word2){
- string combined = "";
 
-for (int i = 0; i < word1.length/2; i++){
-    combined += word1.substring(i, i+1);
-  }
 
-for (int j = word2.length/2; j < word2.length; j++){
-    combined += wor2.substring(j, j+1);
-  }
-  return combined;
-}
+ string com = word1.substring(0,word1.length/2);
+ string ined = word2.substring(word2.length/2);
+
+string combined = com + ined;
+return combined
