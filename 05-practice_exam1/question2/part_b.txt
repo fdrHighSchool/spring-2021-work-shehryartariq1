@@ -1,0 +1,12 @@
+public static boolean isMountain(int [] array){
+  boolean peak = true;
+  for (int i = 1; i < array.length-1; i ++){
+       if (array[i-1] <  array[i] &&  array[i+1]){
+       return peak;
+       }
+       else{
+         peak = false 
+         return peak;
+       }
+
+}
