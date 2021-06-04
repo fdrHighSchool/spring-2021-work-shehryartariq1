@@ -1,0 +1,13 @@
+public int scoreGuess(string guess){
+
+int occurences = 0;
+
+for (i=0; i < secret.length; i++){
+    if (guess.equal(secret)){
+      occurences++;
+      int scoreOfguess = (occurences((guess.length)(guess.length)));
+    }
+    return scoreOfguess;
+
+}
+}

@@ -1,0 +1,9 @@
+public Arraylist<memberinfo> removemebers(int year){
+
+for (int i = 0; i < memberinfo; i ++){
+    if (memeberinfo > year){
+    removemebers.remove(memberinfo);
+    }
+}
+return removemembers
+}

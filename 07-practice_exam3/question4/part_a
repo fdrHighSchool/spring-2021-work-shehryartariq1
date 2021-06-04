@@ -1,0 +1,15 @@
+public static boolean isNonZerorow(int [][] array 2D, int r}{
+int [][] arr = new int array 2D[][];
+
+boolean noZero = true
+
+for (r = 0; r < arr.length; r++)
+   if(r != 0){
+   return noZero
+   }
+   else{
+   noZero = flase;
+   }
+   return nozero;
+
+}

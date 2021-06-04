@@ -1,0 +1,6 @@
+public void addmembers(string [] names, int gradyear){
+
+
+   memberlist.add("names");
+   memberlist.set(names, gradyear);
+}

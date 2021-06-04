@@ -1,0 +1,13 @@
+public string findBetterGuesses(string guess1, string guess2){
+    int score1 = scoreGuess(guess1);
+    int score 2 = scoreGuess(guess2);
+    if ( score 1 > score2 ){
+    return guess1;
+    }
+    else if(score 1 < score2 ){
+    return guess2
+    }
+    else{
+    return guess1
+    }
+}
